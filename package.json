@@ -1,0 +1,25 @@
+{
+  "name": "testdatagenerationdemoapi",
+  "version": "1.0.0",
+  "description": "Test Data Generation API",
+  "main": "server.js",
+  "scripts": {
+    "serve": "env HOST='192.168.100.5' env PORT=3000 supervisor server.js",
+    "local": "supervisor server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "API"
+  ],
+  "author": "Lakshya Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
